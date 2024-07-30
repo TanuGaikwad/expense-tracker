@@ -40,7 +40,7 @@ function Home() {
   }
 
   useEffect(() => {
-  //  loadTransactions()
+    loadTransactions()
   }, [user])
 
   useEffect(() => {
